@@ -749,6 +749,7 @@ class Garmin:
         return self.modern_rest_client.get(url, params=params).json()
 
     def upload_activity(self, activity_path: str):
+        """Returns upload status of file"""
         file_base_name = os.path.basename(activity_path)
         file_extension = file_base_name.split(".")[-1]
         allowed_file_extension = file_extension.upper() in Garmin.ActivityUploadFormat.__members__

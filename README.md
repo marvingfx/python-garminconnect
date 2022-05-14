@@ -1,6 +1,6 @@
 # Python: Garmin Connect
 
-Python 3 API wrapper for Garmin Connect to get your statistics.
+Python 3 API wrapper for Garmin Connect to get your statistics. This fork adds the option to upload activites as well.
 
 ## About
 
